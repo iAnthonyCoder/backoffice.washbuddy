@@ -1,0 +1,33 @@
+[
+    {
+        "field": "feature_1",
+        "value": "Feature 1 Label"
+    },{
+        "field": "feature_2",
+        "value": "Feature 2 Label"
+    },{
+        "field": "feature_3",
+        "value": "Feature 3 Label"
+    },{
+        "field": "feature_4",
+        "value": "Feature 4 Label"
+    },{
+        "field": "feature_5",
+        "value": "Feature 5 Label"
+    },{
+        "field": "feature_6",
+        "value": "Feature 6 Label"
+    },{
+        "field": "feature_7",
+        "value": "Feature 7 Label"
+    },{
+        "field": "feature_8",
+        "value": "Feature 8 Label"
+    },{
+        "field": "feature_9",
+        "value": "Feature 9 Label"
+    },{
+        "field": "feature_10",
+        "value": "Feature 10 Label"
+    }
+]
