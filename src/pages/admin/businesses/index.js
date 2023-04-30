@@ -291,7 +291,7 @@ const BusinessList = ({ apiData }) => {
         <Card>
           {/* <CardHeader title='Search Filters' sx={{ pb: 4, '& .MuiCardHeader-title': { letterSpacing: '.15px' } }} /> */}
         
-          <TableHeader title='Businesses' value={value} handleFilter={handleFilter} toggle={toggleAddUserDrawer} />
+          <TableHeader title='Businesses' value={value} handleFilter={handleFilter} buttonClick = {toggleAddUserDrawer}  />
           <Divider />
 
           <DataGrid

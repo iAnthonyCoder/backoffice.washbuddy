@@ -10,7 +10,7 @@ import Icon from 'src/@core/components/icon'
 
 const TableHeader = props => {
   // ** Props
-  const { handleFilter, toggle, value, title } = props
+  const { handleFilter, toggle, value, title, buttonClick } = props
   const router = useRouter()
 
   return (
@@ -33,9 +33,10 @@ const TableHeader = props => {
           onChange={e => handleFilter(e.target.value)}
         /> */}
 
-        <Button onClick={()=>router.push('/business/orders/add')} sx={{ mb: 2 }} variant='contained'>
+        <Button onClick={()=>buttonClick()} sx={{ mb: 2 }} variant='contained'>
           Add New
         </Button>
+        
       </Box>
     </Box>
   )

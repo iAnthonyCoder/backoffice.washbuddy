@@ -258,7 +258,7 @@ const OrderList = ({ apiData }) => {
         <Card>
           {/* <CardHeader title='Search Filters' sx={{ pb: 4, '& .MuiCardHeader-title': { letterSpacing: '.15px' } }} /> */}
         
-          <TableHeader title='Orders' value={value} handleFilter={handleFilter} toggle={toggleAddUserDrawer} />
+          <TableHeader title='Orders' value={value} handleFilter={handleFilter} buttonClick={()=>router.push('/business/orders/add')} />
           <Divider />
           <DataGrid
             autoHeight

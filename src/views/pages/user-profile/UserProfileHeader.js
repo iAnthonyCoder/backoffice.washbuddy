@@ -48,7 +48,7 @@ const UserProfileHeader = ({id}) => {
 
   return data !== null ? (
     <Card>
-      {console.log(data)}
+     
       {/* <CardMedia
         component='img'
         alt='profile-header'
